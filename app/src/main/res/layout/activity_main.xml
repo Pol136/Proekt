@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="bottom"
-        android:onClick="onClick1"
         android:text="Характеристики текста"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,8 +35,8 @@
 
     <FrameLayout
         android:id="@+id/cont"
-        android:layout_width="365dp"
-        android:layout_height="543dp"
+        android:layout_width="393dp"
+        android:layout_height="546dp"
         android:layout_marginBottom="108dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
