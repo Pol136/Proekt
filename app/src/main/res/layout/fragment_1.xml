@@ -13,8 +13,17 @@
         android:id="@+id/textView19"
         android:layout_width="213dp"
         android:layout_height="70dp"
-        android:layout_marginTop="508dp"
-        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="215dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="280dp"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -22,64 +31,44 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/textView12"
-        android:textColor="@color/black"
-        android:layout_width="215dp"
-        android:layout_height="85dp"
-        android:gravity="center"
-        android:layout_marginTop="336dp"
-        android:layout_marginEnd="1dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:textSize="20sp"/>
-
-    <TextView
         android:id="@+id/textView11"
-        android:textColor="@color/black"
-        android:gravity="center"
         android:layout_width="215dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="424dp"
-        android:layout_marginEnd="1dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:textSize="20sp"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="213dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="252dp"
-        android:layout_marginEnd="1dp"
+        android:layout_height="70dp"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="215dp"
         android:layout_height="70dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="1dp"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="212dp"
         android:layout_height="70dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="1dp"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView17"
@@ -99,77 +88,93 @@
 
     <TextView
         android:id="@+id/textView16"
-        android:gravity="center"
         android:layout_width="196dp"
-        android:layout_height="85dp"
+        android:layout_height="70dp"
         android:layout_weight="1"
+        android:gravity="center"
         android:text="Количество символов с пробелами:"
         android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201"
-        android:textSize="18sp"/>
+        app:layout_constraintVertical_bias="0.196" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="196dp"
-        android:layout_height="85dp"
+        android:layout_height="70dp"
         android:layout_weight="1"
-        android:text="Количество символов без пробелов:"
         android:gravity="center"
+        android:text="Количество символов без пробелов:"
         android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.332"
-        android:textSize="18sp"/>
+        app:layout_constraintVertical_bias="0.302" />
 
     <TextView
-        android:gravity="center"
         android:id="@+id/textView14"
         android:layout_width="196dp"
-        android:layout_height="85dp"
+        android:layout_height="70dp"
         android:layout_weight="1"
+        android:gravity="center"
         android:text="Количество слов:"
         android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462"
-        android:textSize="18sp"/>
+        app:layout_constraintVertical_bias="0.408" />
 
     <TextView
-        android:gravity="center"
         android:id="@+id/textView15"
         android:layout_width="196dp"
-        android:layout_height="85dp"
+        android:layout_height="70dp"
         android:layout_weight="1"
+        android:gravity="center"
         android:text="Количество предложений:"
         android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594"
-        android:textSize="18sp"/>
+        app:layout_constraintVertical_bias="0.514" />
 
     <TextView
-        android:textSize="18sp"
         android:id="@+id/textView7"
-        android:gravity="center"
         android:layout_width="196dp"
-        android:layout_height="85dp"
+        android:layout_height="70dp"
         android:layout_weight="1"
+        android:gravity="center"
         android:text="Время прочтeния (минуты):"
         android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="196dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Время произношения (минуты):"
+        android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -178,36 +183,20 @@
         app:layout_constraintVertical_bias="0.726" />
 
     <TextView
-        android:textSize="18sp"
-        android:id="@+id/textView8"
-        android:gravity="center"
-        android:layout_width="196dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="Время произношения (минуты):"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.857" />
-
-    <TextView
-        android:textSize="18sp"
-        android:gravity="center"
         android:id="@+id/textView9"
         android:layout_width="195dp"
-        android:layout_height="85dp"
+        android:layout_height="70dp"
         android:layout_weight="1"
+        android:gravity="center"
         android:text="Время написания (минуты):"
         android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.989" />
+        app:layout_constraintVertical_bias="0.832" />
 
     <TextView
         android:id="@+id/textView"
@@ -221,15 +210,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:gravity="center"
         android:layout_width="215dp"
-        android:layout_height="85dp"
-        android:layout_marginEnd="1dp"
-        android:text=""
+        android:layout_height="70dp"
         android:layout_alignParentTop="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
         android:textSize="20sp"
-        android:textColor="@color/black"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
